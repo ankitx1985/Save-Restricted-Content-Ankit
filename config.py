@@ -17,21 +17,21 @@ YTUB_COOKIES = """
 # write here yt cookies
 """
 
-API_ID = os.getenv("API_ID", "")
-API_HASH = os.getenv("API_HASH", "")
-BOT_TOKEN = os.getenv("BOT_TOKEN", "")
-MONGO_DB = os.getenv("MONGO_DB", "")
-OWNER_ID = list(map(int, os.getenv("OWNER_ID", "").split())) # list seperated via space
-DB_NAME = os.getenv("DB_NAME", "telegram_downloader")
+API_ID = os.getenv("API_ID", "26994377")
+API_HASH = os.getenv("API_HASH", "9c9eb74a4a0a1ecd4c96abebf3c637ee")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "8287122600:AAEYa9CSs1MF4Rsi48CsfDdXJEhs64P2YX0")
+MONGO_DB = os.getenv("MONGO_DB", "mongodb+srv://fixmayart834:FMWwXBd4JJYMs2Iv@cluster0.ltpube9.mongodb.net/?retryWrites=true&w=majority")
+OWNER_ID = list(map(int, os.getenv("OWNER_ID", "8184789731").split())) # list seperated via space
+DB_NAME = os.getenv("DB_NAME", "telegramkibot")
 STRING = os.getenv("STRING", None) # optional
-LOG_GROUP = int(os.getenv("LOG_GROUP", "-1001234456")) # optional with -100
-FORCE_SUB = int(os.getenv("FORCE_SUB", "-10012345567")) # optional with -100
+LOG_GROUP = int(os.getenv("LOG_GROUP", "-1003087587927")) # optional with -100
+FORCE_SUB = int(os.getenv("FORCE_SUB", "-1003024428633")) # optional with -100
 MASTER_KEY = os.getenv("MASTER_KEY", "gK8HzLfT9QpViJcYeB5wRa3DmN7P2xUq") # for session encryption
 IV_KEY = os.getenv("IV_KEY", "s7Yx5CpVmE3F") # for decryption
 YT_COOKIES = os.getenv("YT_COOKIES", YTUB_COOKIES)
 INSTA_COOKIES = os.getenv("INSTA_COOKIES", INST_COOKIES)
-FREEMIUM_LIMIT = int(os.getenv("FREEMIUM_LIMIT", "0"))
-PREMIUM_LIMIT = int(os.getenv("PREMIUM_LIMIT", "500"))
-JOIN_LINK = os.getenv("JOIN_LINK", "https://t.me/team_spy_pro") # this link for start command message
-ADMIN_CONTACT = os.getenv("ADMIN_CONTACT", "https://t.me/username_of_admin")
+FREEMIUM_LIMIT = int(os.getenv("FREEMIUM_LIMIT", "50"))
+PREMIUM_LIMIT = int(os.getenv("PREMIUM_LIMIT", "10000"))
+JOIN_LINK = os.getenv("JOIN_LINK", "https://t.me/Heisenberg_Universe") # this link for start command message
+ADMIN_CONTACT = os.getenv("ADMIN_CONTACT", "https://t.me/Heisenbergsells")
 
